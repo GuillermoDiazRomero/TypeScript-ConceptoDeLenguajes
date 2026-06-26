@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/01_ok_tipos.ts",
+    "src/03_inferencia.ts",
+    "src/04_subtipado_genericos.ts",
+    "src/06_runtime_error.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

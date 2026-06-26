@@ -1,0 +1,16 @@
+{
+  "name": "typescript-sistema-de-tipos-demo",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para una presentacion universitaria sobre el sistema de tipos de TypeScript.",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "ok": "npm run build && node dist/01_ok_tipos.js && node dist/03_inferencia.js && node dist/04_subtipado_genericos.js",
+    "errors": "tsc -p tsconfig.errors.json --noEmit",
+    "runtime": "npm run build && node dist/06_runtime_error.js",
+    "js": "node src/05_coerciones_js.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
