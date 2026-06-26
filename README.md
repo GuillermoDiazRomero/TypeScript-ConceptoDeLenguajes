@@ -1,7 +1,5 @@
 # Demo: sistema de tipos de TypeScript
 
-Proyecto de prueba para capturas de una presentacion universitaria.
-
 ## Comandos
 
 ```bash
